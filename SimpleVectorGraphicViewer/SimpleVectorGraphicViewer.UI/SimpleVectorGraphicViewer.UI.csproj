@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleVectorGraphicViewer.BusinessObjects\SimpleVectorGraphicViewer.BusinessObjects.csproj" />
+    <ProjectReference Include="..\SimpleVectorGraphicViewer.Contracts\SimpleVectorGraphicViewer.Contracts.csproj" />
+    <ProjectReference Include="..\SimpleVectorGraphicViewer.Managers\SimpleVectorGraphicViewer.Managers.csproj" />
+    <ProjectReference Include="..\SimpleVectorGraphicViewer.Services\SimpleVectorGraphicViewer.Services.csproj" />
+    <ProjectReference Include="..\SimpleVectorGraphicViewer.UI.Infrastructure\SimpleVectorGraphicViewer.UI.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Config\configurations.Debug.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Config\configurations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Config\configurations.Release.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

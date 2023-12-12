@@ -1,0 +1,11 @@
+{
+  "RabbitMQ": {
+    "Password": "guest",
+    "UriString": "rabbitmq://127.0.0.1/",
+    "Host": "http://127.0.0.1",
+    "Port": 15672,
+    "VHost": "/api/vhosts/",
+    "Permissions": "/api/permissions/",
+    "UserName": "guest"
+  }
+}
