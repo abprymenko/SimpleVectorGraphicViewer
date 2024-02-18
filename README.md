@@ -10,14 +10,15 @@ Figures:
 ----------------
 a)closed shape:
 	- have vertices;
-	- have not vertices;
+ 	- have not vertices;
 b)open shape:
 	- have vertices;
-	- have not vertices;
+ 	- have not vertices;
 ----------------
 Total:
-interfaces - 23
-classes - 40
+interfaces - 42;
+classes - 40;
+enums - 1;
 
 #RabbitMQ is a message-queueing software also known as a message broker or queue manager. 
 #Simply said, it is software where queues are defined.
